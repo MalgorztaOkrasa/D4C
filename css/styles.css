@@ -1,0 +1,218 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+.logo {
+  font-family: 'Inspiration', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.big-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.section-sub-heading {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-top: 3%;
+}
+
+.logo {
+  font-family: 'Inspiration', cursive;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored{
+  background-color: #F6F6F6;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 3% 15%;
+}
+
+
+.nav-link {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #AAAAAA;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+
+/* Title Section */
+
+.author{
+text-align: left;
+margin-top: 5%;
+}
+
+
+.jezyk {
+  width: 100%;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+
+/* Features Section */
+#features {
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.feature-description {
+  color: #AAAAAA;
+  margin: 0 auto;
+}
+
+.icon {
+  color: #406882;
+  padding-top: 5%;
+}
+
+.icon:hover {
+  color: #AAAAAA;
+}
+
+
+/* Gallery */
+
+.gallery-heading-container{
+  padding: 7% 15% 0;
+}
+
+.gallery-image {
+  width: 70%;
+}
+
+.flower-name {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.flower-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #AAAAAA;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.like-flower {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-top: 50px;
+  text-align: left;
+}
+
+
+.buttons {
+  text-align: left;
+}
+
+.btn {
+  margin: 5% 5% 0 0;
+}
+
+/* Pricing */
+#pricing {
+  padding: 3% 15%;
+}
+
+.pricing-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1% 0;
+}
+
+.pricing-column {
+  padding: 5% 2%;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.pricing-text{
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #AAAAAA;
+}
+
+
+/* Footer */
+
+.footer-image {
+  padding: 1% 10px;
+}
+
+.button {
+  margin: 5% 1%;
+}
+
+.copyright-text{
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  }
+
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+.big-heading{
+      text-align: center;
+}
+
+.author{
+text-align: center;
+}
+
+  .flower-name {
+padding-top: 3%;
+    text-align: center;
+  }
+
+  .flower-description {
+    text-align: center;
+  }
+
+  .like-flower {
+    text-align: center;
+  }
+
+  .buttons{
+        text-align: center;
+  }}
